@@ -26,7 +26,7 @@ class _MenuViewState extends State<MenuView> {
   {
     SnackBar mySnackbar = SnackBar(
       backgroundColor: Colors.yellow,
-      duration: Duration(milliseconds: 1500),
+      duration: Duration(milliseconds: 500),
       content: Text(index == 1?"Add":"Search",
       style: TextStyle(color: Colors.black, fontSize: 25),
       ),
