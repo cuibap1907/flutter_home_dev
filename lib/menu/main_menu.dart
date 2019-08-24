@@ -43,7 +43,7 @@ class _MenuViewState extends State<MenuView> {
         titleSpacing: 2.0,
         title: Text("Home"),
         leading: IconButton(
-          icon: Icon(Icons.menu, size: 30, color: Colors.red,),
+          icon: Icon(Icons.menu, size: 30, color: Colors.white,),
           onPressed: () {},
         ),
         actions: List.generate(topIcons.length, (int index) {
